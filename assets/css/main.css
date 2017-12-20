@@ -106,7 +106,10 @@ body {
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
-#mainNav .navbar-brand .tel a:hover {
+#mainNav .navbar-brand .tel a:hover,
+#mainNav .navbar-brand .tel a:active,
+#mainNav .navbar-brand .tel a:focus,
+#mainNav .navbar-brand .tel a:link {
   text-decoration: none;
 }
 
